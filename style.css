@@ -1,0 +1,109 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #00bcd4;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  ul li a:hover {
+    color: #00bcd4;
+  } */
+
+  body{
+    margin: 0;
+  }
+  .nav-setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(279, 15%, 81%);
+    color: hsla(0, 0%, 0%, 0.836);
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 8px 20px;
+    border-radius: 5px;
+  }
+  .title{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: blue;
+  }
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .nav-links :hover{
+    font-weight: bold;
+    color: blue;
+  }
+  .container{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 250px;
+  }
+  .container h2{
+    font-size: 4rem;
+    display: block;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .color{
+    color: hsl(240, 82%, 50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #btn{
+    font-size: 2.5rem;
+    padding: 18px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+   #btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+   }
